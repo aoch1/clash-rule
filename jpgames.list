@@ -1,14 +1,15 @@
 # cygames
-# 
+# ウマ娘 プリティーダービー
 DOMAIN,api-umamusume.cygames.jp
 DOMAIN-SUFFIX,cygames.jp
 DOMAIN-SUFFIX,umamusume.jp
 DOMAIN,prd-storage-app-umamusume.akamaized.net
 DOMAIN,prd-storage-game-umamusume.akamaized.net
 DOMAIN,prd-storage-umamusume.akamaized.net
+# プリンセスコネクト!Re:Dive
 DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
 DOMAIN-SUFFIX,api-priconne-redive.cygames.jp
 DOMAIN-SUFFIX,krr-prd.star-api.com
 DOMAIN-SUFFIX,asset-krr-prd.star-api.com
+# マギアレコード
 DOMAIN-SUFFIX,magi-reco.com
-
