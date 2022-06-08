@@ -4,7 +4,7 @@
 
 参考了这位的教程：https://yattazen.com/tutorial/clash-custom-config.html
 
-## 参考
+## 感谢大佬
 
 ACL4SSR库：https://github.com/ACL4SSR/ACL4SSR/tree/master/Clash
 
