@@ -2,7 +2,7 @@
 
 自己玩的一些日服游戏的分流list
 
-食用教程：https://yattazen.com/tutorial/clash-custom-config.html
+参考了这位的教程：https://yattazen.com/tutorial/clash-custom-config.html
 
 ## 参考
 
