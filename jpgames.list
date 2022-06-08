@@ -9,6 +9,7 @@ DOMAIN,prd-storage-umamusume.akamaized.net
 DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
 DOMAIN-SUFFIX,api-priconne-redive.cygames.jp
 DOMAIN-SUFFIX,api-common01.cygames.jp
+DOMAIN-SUFFIX,e9844.i.akamaiedge.net
 # きららファンタジア
 DOMAIN-SUFFIX,krr-prd.star-api.com
 DOMAIN-SUFFIX,asset-krr-prd.star-api.com
