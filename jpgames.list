@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,cygames.jp
 DOMAIN-SUFFIX,umamusume.jp
 DOMAIN-SUFFIX,prd-info-umamusume.akamaized.net
 DOMAIN-SUFFIX,prd-storage-app-umamusume.akamaized.net
+DOMAIN-SUFFIX,prd-storage-game-umamusume.akamaized.net
 # プリンセスコネクト!Re:Dive
 DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
 DOMAIN-SUFFIX,api-priconne-redive.cygames.jp
