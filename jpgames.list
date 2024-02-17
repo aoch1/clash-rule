@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,api-umamusume.cygames.jp
 DOMAIN-SUFFIX,cygames.jp
 DOMAIN-SUFFIX,umamusume.jp
+DOMAIN-SUFFIX,umamusume.akamaized.net
 DOMAIN-SUFFIX,prd-info-umamusume.akamaized.net
 DOMAIN-SUFFIX,prd-storage-app-umamusume.akamaized.net
 DOMAIN-SUFFIX,prd-storage-game-umamusume.akamaized.net
