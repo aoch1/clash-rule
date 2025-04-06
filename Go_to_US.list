@@ -56,3 +56,5 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaipublic
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,auth0.com
