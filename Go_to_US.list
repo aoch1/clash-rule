@@ -67,8 +67,8 @@ DOMAIN,ios.chat.openai
 DOMAIN-KEYWORD,datadoghq
 DOMAIN-KEYWORD,revenuecat
 DOMAIN-KEYWORD,sentry
-DOMAIN-SUFFIX,http://apple-relay.cloudflare.com,AI // Added for: http://apple-relay.cloudflare.com
-DOMAIN-SUFFIX,http://apple-relay.apple.com,AI // Added for: http://apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,mask-api.icloud.com
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,guzzoni.apple.com
