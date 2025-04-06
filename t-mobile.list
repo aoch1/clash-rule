@@ -53,6 +53,6 @@ DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,poe.com
-DOMAIN-KEYWORD,openai,PROXY
-DOMAIN-KEYWORD,openaiapi,PROXY
-DOMAIN-KEYWORD,openaipublic,PROXY
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaipublic
