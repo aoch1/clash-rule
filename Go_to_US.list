@@ -10,7 +10,11 @@ DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,snapchat.com
-DOMAIN,cdn.auth0.com        
+DOMAIN-SUFFIX,gcp.api.snapchat.com
+DOMAIN-SUFFIX,aws.api.snapchat.com
+DOMAIN-SUFFIX,us-east1-aws.api.snapchat.com
+DOMAIN-KEYWORD,snapchat.com
+DOMAIN,cdn.auth0.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,vimeocdn.com
 DOMAIN-SUFFIX,blob.core.windows.net
