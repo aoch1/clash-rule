@@ -1,4 +1,6 @@
+# T-Mobile
 DOMAIN-SUFFIX,t-mobile.com
+# 不知道
 DOMAIN-SUFFIX,equifax.com
 DOMAIN-SUFFIX,capitalone.com
 DOMAIN-SUFFIX,client.schwab.com
@@ -9,11 +11,13 @@ DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,depdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+# snapchat
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,gcp.api.snapchat.com
 DOMAIN-SUFFIX,aws.api.snapchat.com
 DOMAIN-SUFFIX,us-east1-aws.api.snapchat.com
 DOMAIN-KEYWORD,snapchat.com
+# 不知道
 DOMAIN,cdn.auth0.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,vimeocdn.com
@@ -33,6 +37,7 @@ DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,googletagmanager.com
+# OpenAI
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,pay.openai.com
