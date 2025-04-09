@@ -4,6 +4,8 @@ DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,mora.jp
 DOMAIN-SUFFIX,ototoy.jp
 DOMAIN-SUFFIX,recochoku.jp
+# AniSong目录
+DOMAIN-SUFFIX,anime-song-info.com
 # DLside
 DOMAIN-SUFFIX,dlsite.com
 DOMAIN-SUFFIX,play.dlsite.com
