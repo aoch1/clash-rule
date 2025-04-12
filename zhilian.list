@@ -1,0 +1,8 @@
+# 这个分组是为了让一些诸如由于'.io''.co.jp'后缀被误伤但实际应该走直连的域名而设置的
+# HikariField
+DOMAIN-SUFFIX,hikarifield.co.jp
+DOMAIN-SUFFIX,store.hikarifield.co.jp
+# 企鹅物流
+DOMAIN-SUFFIX,penguin-stats.io
+DOMAIN-SUFFIX,penguin-stats.cn
+DOMAIN-SUFFIX,penguin-stats.s3.amazonaws.com
