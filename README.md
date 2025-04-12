@@ -12,7 +12,7 @@ blackmatrix7库：https://github.com/blackmatrix7/ios_rule_script/tree/master/ru
 
 ## 订阅链接格式
 
-https://sub.dler.io/sub?target=clash&url=XXX%7CXXX%7CXXX&&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Faoch1%2Fclash-rule%2Fmain%2Fpowerbyacl4ssr.ini&emoji=true&list=false&udp=true&tfo=false&scv=false&fdn=false&sort=false
+https://dyzh.aoch1zaq.workers.dev/sub?target=clash&new_name=true&url=订阅1%7C订阅2&config=https%3a%2f%2fraw.githubusercontent.com%2faoch1%2fclash-rule%2frefs%2fheads%2fmain%2fpowerbyacl4ssr.ini&include=&exclude=&emoji=true&list=false&sort=false&udp=true&scv=false&append_type=false&fdn=true
 
 ## 一些订阅转换服务前缀
 api.dler.io
