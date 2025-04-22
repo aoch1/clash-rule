@@ -30,7 +30,7 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
 补充仓库 https://github.com/Boos4721/OpenWrt-Packages  
 
 ## 编译依赖
-保险起见一次安装少一点
+保险起见一次安装少一点，分多次安装
 
     sudo apt update -y
     sudo apt full-upgrade -y
