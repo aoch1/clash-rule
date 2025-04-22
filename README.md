@@ -58,7 +58,7 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
     git pull
     ./scripts/feeds update -a
     ./scripts/feeds install -a
-    make menuconfig defconfig
+    make menuconfig
     make download -j8
     make V=s -j$(nproc)
     
