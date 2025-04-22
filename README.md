@@ -68,7 +68,8 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
     make menuconfig
     make V=s -j$(nproc)
     
-编译完成后输出路径：bin/targets
+编译完成后输出路径：bin/targets  
+无线密码12345678
 
 ## 其他问题
 ### 没有中文
