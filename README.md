@@ -54,11 +54,11 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
     
 二次编译
 
-    cd lede
+    cd immortalwrt
     git pull
     ./scripts/feeds update -a
     ./scripts/feeds install -a
-    make defconfig
+    make menuconfig defconfig
     make download -j8
     make V=s -j$(nproc)
     
