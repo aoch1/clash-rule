@@ -2,9 +2,7 @@
 
 自己玩的一些日服游戏的分流list
 
-参考了这位的教程：
-
-    https://yattazen.com/tutorial/clash-custom-config.html
+参考了这位的教程：https://yattazen.com/tutorial/clash-custom-config.html
 
 ## 感谢大佬
 
@@ -25,8 +23,7 @@ api.dler.io
 api.wcc.best
 
 # 编译参考
-lede源码 https://github.com/coolsnowwolf/lede
-
+lede源码 https://github.com/coolsnowwolf/lede  
 lede最后保留ax6的源码 https://github.com/aoch1/lede
 
 说是带满血NSS驱动的源码 https://github.com/VIKINGYFY/immortalwrt/tree/main
