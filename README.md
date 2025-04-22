@@ -70,5 +70,8 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
     
 编译完成后输出路径：bin/targets
 
-## 如果没有中文
+## 其他问题
+### 没有中文
 在过滤框中输入「luci-i18n-base-zh-cn」进行查找，接着选择「Install」安装语言包。
+### open clash内核无法更新
+使用WinSCP上传到对应目录
