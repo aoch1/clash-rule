@@ -28,3 +28,16 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
 适用于 IPQ系列设备的 OpenWrt 源码仓库 https://github.com/LiBwrt/openwrt-6.x?tab=readme-ov-file  
 各种插件和依赖仓库 https://github.com/kenzok8/small  
 补充仓库 https://github.com/Boos4721/OpenWrt-Packages  
+
+## 编译依赖
+    sudo apt update -y
+    sudo apt full-upgrade -y
+    sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential
+    sudo apt install -y bzip2 ccache clang cmake cpio curl device-tree-compiler flex gawk gcc-multilib g++-multilib gettext
+    sudo apt install -y genisoimage git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libfuse-dev libglib2.0-dev
+    sudo apt install -y libgmp3-dev libltdl-dev libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libpython3-dev
+    sudo apt install -y libreadline-dev libssl-dev libtool llvm lrzsz msmtp ninja-build p7zip p7zip-full patch pkgconf
+    sudo apt install -y python3 python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion
+    sudo apt install -y swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
+
+    
