@@ -31,6 +31,7 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
 
 ## 编译依赖
 保险起见一次安装少一点
+
     sudo apt update -y
     sudo apt full-upgrade -y
     sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential
@@ -40,7 +41,9 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
     sudo apt install -y libreadline-dev libssl-dev libtool llvm lrzsz msmtp ninja-build p7zip p7zip-full patch pkgconf
     sudo apt install -y python3 python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion
     sudo apt install -y swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
+    
 初始编译
+
     git clone https://github.com/VIKINGYFY/immortalwrt
     cd immortalwrt
     ./scripts/feeds update -a
@@ -48,7 +51,9 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
     make menuconfig
     make download -j8
     make V=s -j1
+    
 二次编译
+
     cd lede
     git pull
     ./scripts/feeds update -a
@@ -56,8 +61,11 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
     make defconfig
     make download -j8
     make V=s -j$(nproc)
+    
 如果需要重新配置：
+
     rm -rf .config
     make menuconfig
     make V=s -j$(nproc)
+    
 编译完成后输出路径：bin/targets
