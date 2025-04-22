@@ -24,12 +24,8 @@ api.wcc.best
 
 # 编译参考
 lede源码 https://github.com/coolsnowwolf/lede  
-lede最后保留ax6的源码 https://github.com/aoch1/lede
-
-说是带满血NSS驱动的源码 https://github.com/VIKINGYFY/immortalwrt/tree/main
-
-适用于 IPQ系列设备的 OpenWrt 源码仓库 https://github.com/LiBwrt/openwrt-6.x?tab=readme-ov-file
-
-各种插件和依赖仓库 https://github.com/kenzok8/small
-
-补充仓库 https://github.com/Boos4721/OpenWrt-Packages
+lede最后保留ax6的源码 https://github.com/aoch1/lede  
+说是带满血NSS驱动的源码 https://github.com/VIKINGYFY/immortalwrt/tree/main  
+适用于 IPQ系列设备的 OpenWrt 源码仓库 https://github.com/LiBwrt/openwrt-6.x?tab=readme-ov-file  
+各种插件和依赖仓库 https://github.com/kenzok8/small  
+补充仓库 https://github.com/Boos4721/OpenWrt-Packages  
