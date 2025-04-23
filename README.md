@@ -32,7 +32,11 @@ api.wcc.best
 9. 在`系统-文件传输-上传`点击`浏览`选择从`https://github.com/vernesong/OpenClash`中下载的最新版*All.ipk。点击`上传`  
 10. 紧接步骤7，在下面的上传文件列表中直接安装openclash，安装完成记得删掉上传的安装包  
 11. 退出路由器管理页面然后重新登入，有条件的话直接重启路由器更好  
-12. 刚刚安装的新版openclash就可以使用了
+12. 刚刚安装的新版openclash就可以开始配置了
+13. 下载`WinSCP绿色版`，百度随便找个就行
+14. 打开后输入路由地址、用户名`root`、密码`password`、端口`22`、文件协议`SCP`
+15. 定位到`/etc/openclash/core`上传`clash_meta`
+16. enjoy
 
 ## 其他问题
 ### 没有中文
