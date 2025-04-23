@@ -35,7 +35,7 @@ api.wcc.best
     src/gz openwrt_telephony https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/telephony
     
 4. 返回`系统-软件包-动作`，点击`刷新列表`  
-5. 紧接步骤4，在`过滤器`后面的搜索框中输入'libgcc1'并点击后面的`查找软件包`，然后点击下面的`可用软件包`再点击安装或更新。  
+5. 紧接步骤4，在`过滤器`后面的搜索框中输入`libgcc1`并点击后面的`查找软件包`，然后点击下面的`可用软件包`再点击安装或更新。  
 6. 紧接步骤5，按照同样的方法安装或更新`libpthread`和`librt`  
 7. 在`系统-文件传输-上传`点击`浏览`选择从https://github.com/vernesong/OpenClash中下载的最新版*All.ipk。点击`上传`  
 8. 紧接步骤7，在下面的上传文件列表中直接安装openclash，安装完成记得删掉上传的安装包  
