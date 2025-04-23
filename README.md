@@ -21,6 +21,37 @@ https://dash.cloudflare.com
 api.dler.io  
 api.wcc.best
 
+# 强烈建议用老mini固件
+## 严格按步骤来操作，这是先辈的血泪教训
+1.当然是刷入老mini固件  
+2.在'系统-软件包-配置'的最上面的框框中注释掉最后一行代码，也即使之变为'# option check_signature'字样，然后点击提交  
+3.紧接步骤2，继续把第二个框框（发行版软件源）的内容全部删掉，替换为下面的代码，然后点击提交
+    src/gz openwrt_core https://mirrors.tencent.com/lede/releases/24.10.1/targets/qualcommax/ipq807x/packages
+    src/gz openwrt_base https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/base
+    src/gz openwrt_luci https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/luci
+    src/gz openwrt_packages https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/packages
+    src/gz openwrt_routing https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/routing
+    src/gz openwrt_telephony https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/telephony
+4.返回'系统-软件包-动作'，点击'刷新列表'  
+5.紧接步骤4，在'过滤器'后面的搜索框中输入'libgcc1'并点击后面的'查找软件包'，然后点击下面的'可用软件包'再点击安装或更新。  
+6.紧接步骤5，按照同样的方法安装或更新'libpthread'和'librt'  
+7.在'系统-文件传输-上传'点击'浏览'选择从https://github.com/vernesong/OpenClash中下载的最新版*All.ipk。点击'上传'  
+8.紧接步骤7，在下面的上传文件列表中直接安装openclash，安装完成记得删掉上传的安装包  
+9.退出路由器管理页面然后重新登入，有条件的话直接重启路由器更好  
+10.刚刚安装的新版openclash就可以使用了
+
+## 其他问题
+### 没有中文
+在过滤框中输入「luci-i18n-base-zh-cn」进行查找，接着选择「Install」安装语言包。
+### open clash内核无法更新
+使用WinSCP上传到对应目录
+### 好看的主题
+Others文件夹里有备份的Design主题离线安装包
+### 沟槽的immortalwrt默认用的竟然是apk包管理（会用不了一点）
+~~火速切换到opkg~~
+~~算了还是用lede吧~~
+呵呵，还是用老固件吧，新船载不了老AX6
+
 # 编译参考
 lede源码 https://github.com/coolsnowwolf/lede  
 lede最后保留ax6的源码 https://github.com/aoch1/lede  
@@ -114,14 +145,3 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
 
 编译完成后输出路径：bin/targets  
 无线密码12345678
-
-## 其他问题
-### 没有中文
-在过滤框中输入「luci-i18n-base-zh-cn」进行查找，接着选择「Install」安装语言包。
-### open clash内核无法更新
-使用WinSCP上传到对应目录
-### 好看的主题
-Others文件夹里有备份的Design主题离线安装包
-### 沟槽的immortalwrt默认用的竟然是apk包管理（会用不了一点）
-~~火速切换到opkg~~
-算了还是用lede吧
