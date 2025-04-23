@@ -123,4 +123,5 @@ lede最后保留ax6的源码 https://github.com/aoch1/lede
 ### 好看的主题
 Others文件夹里有备份的Design主题离线安装包
 ### 沟槽的immortalwrt默认用的竟然是apk包管理（会用不了一点）
-火速切换到opkg
+~~火速切换到opkg~~
+算了还是用lede吧
