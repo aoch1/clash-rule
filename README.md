@@ -27,20 +27,20 @@ api.wcc.best
 2. 在`系统-软件包-配置`的最上面的框框中注释掉最后一行代码，也即使之变为`# option check_signature`字样，然后点击提交  
 3. 紧接步骤2，继续把第二个框框（发行版软件源）的内容全部删掉，替换为下面的代码，然后点击提交    
 
-    src/gz openwrt_core https://mirrors.tencent.com/lede/releases/24.10.1/targets/qualcommax/ipq807x/packages
-    src/gz openwrt_base https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/base
-    src/gz openwrt_luci https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/luci
-    src/gz openwrt_packages https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/packages
-    src/gz openwrt_routing https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/routing
-    src/gz openwrt_telephony https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/telephony
-
-4. 返回`系统-软件包-动作`，点击`刷新列表`  
-5. 紧接步骤4，在`过滤器`后面的搜索框中输入`libgcc1`并点击后面的`查找软件包`，然后点击下面的`可用软件包`再点击安装或更新。  
-6. 紧接步骤5，按照同样的方法安装或更新`libpthread`和`librt`  
-7. 在`系统-文件传输-上传`点击`浏览`选择从`https://github.com/vernesong/OpenClash`中下载的最新版*All.ipk。点击`上传`  
-8. 紧接步骤7，在下面的上传文件列表中直接安装openclash，安装完成记得删掉上传的安装包  
-9. 退出路由器管理页面然后重新登入，有条件的话直接重启路由器更好  
-10. 刚刚安装的新版openclash就可以使用了
+       src/gz openwrt_core https://mirrors.tencent.com/lede/releases/24.10.1/targets/qualcommax/ipq807x/packages
+       src/gz openwrt_base https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/base
+       src/gz openwrt_luci https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/luci
+       src/gz openwrt_packages https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/packages
+       src/gz openwrt_routing https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/routing
+       src/gz openwrt_telephony https://mirrors.tencent.com/lede/releases/24.10.1/packages/aarch64_cortex-a53/telephony
+   
+5. 返回`系统-软件包-动作`，点击`刷新列表`  
+6. 紧接步骤4，在`过滤器`后面的搜索框中输入`libgcc1`并点击后面的`查找软件包`，然后点击下面的`可用软件包`再点击安装或更新。  
+7. 紧接步骤5，按照同样的方法安装或更新`libpthread`和`librt`  
+8. 在`系统-文件传输-上传`点击`浏览`选择从`https://github.com/vernesong/OpenClash`中下载的最新版*All.ipk。点击`上传`  
+9. 紧接步骤7，在下面的上传文件列表中直接安装openclash，安装完成记得删掉上传的安装包  
+10. 退出路由器管理页面然后重新登入，有条件的话直接重启路由器更好  
+11. 刚刚安装的新版openclash就可以使用了
 
 ## 其他问题
 ### 没有中文
