@@ -42,14 +42,14 @@ api.wcc.best
 ### 好看的主题
 Others文件夹里有备份的Design主题离线安装包
 ### 沟槽的immortalwrt默认用的竟然是apk包管理（会用不了一点）
-~~火速切换到opkg~~
-~~算了还是用lede吧~~
+~~火速切换到opkg~~  
+~~算了还是用lede吧~~  
 呵呵，还是用老固件吧，新船载不了老AX6
 
 # 编译参考
 lede源码 https://github.com/coolsnowwolf/lede  
 lede最后保留ax6的源码 https://github.com/aoch1/lede  
-★说是带满血NSS驱动的源码 https://github.com/VIKINGYFY/immortalwrt/tree/main  
+说是带满血NSS驱动的源码 https://github.com/VIKINGYFY/immortalwrt/tree/main  
 适用于 IPQ系列设备的 OpenWrt 源码仓库 https://github.com/LiBwrt/openwrt-6.x?tab=readme-ov-file  
 各种插件和依赖仓库 https://github.com/kenzok8/small  
 补充仓库 https://github.com/Boos4721/OpenWrt-Packages  
