@@ -35,8 +35,8 @@ api.wcc.best
 12. 刚刚安装的新版openclash就可以开始配置了
 13. 下载`WinSCP绿色版`，百度随便找个就行
 14. 打开后输入路由地址、用户名`root`、密码`password`、端口`22`、文件协议`SCP`
-15. 定位到`/etc/openclash/core`上传`clash_meta`
-16. enjoy
+15. 定位到`/etc/openclash/core`上传`Others`文件夹里的`clash_meta`
+16. Enjoy
 
 ## 其他问题
 ### 没有中文
