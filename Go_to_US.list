@@ -17,3 +17,7 @@ DOMAIN-KEYWORD,grindr
 # 美卡论坛
 DOMAIN-SUFFIX,uscardforum.com
 DOMAIN-SUFFIX,uscreditcardguide.com
+# T-mobile calling
+IP-CIDR,206.29.177.36/32
+IP-CIDR,66.94.0.0/19
+IP-CIDR,208.54.0.0/16
