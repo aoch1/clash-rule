@@ -264,7 +264,7 @@ rule-providers:
   Go to FR: { <<: *class, url: "https://raw.githubusercontent.com/aoch1/clash-rule/main/Go_to_FR.list"}
   game: { <<: *class, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"}
   spotify_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs"}
-  YouTubeMusic: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTubeMusic.list"}
+  YouTubeMusic: { <<: *class, url: "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/YouTubeMusic/YouTubeMusic.list"}
   bahamut_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs"}
   nintendo_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/nintendo.mrs"}
   niconico_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/niconico.mrs"}
