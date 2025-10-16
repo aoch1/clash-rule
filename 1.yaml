@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://www.ccsub.org/link/J5NwRndoFZXak9YpTzUTm821XGqoHhk4ixVnBgCChSodM8T9vRlFpZB0LPr3DOZa?clash=1"
+    url: "订阅"
     type: http
     interval: 86400
     health-check:
