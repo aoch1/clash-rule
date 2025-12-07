@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,anime-song-info.com
 DOMAIN-SUFFIX,dlsite.com
 DOMAIN-SUFFIX,play.dlsite.com
 DOMAIN-SUFFIX,dlsite.jp
+# 雅虎日本
+DOMAIN-SUFFIX,yahoo.co.jp
 # ウマ娘 プリティーダービー
 DOMAIN-SUFFIX,api-umamusume.cygames.jp
 DOMAIN-SUFFIX,cygames.jp
