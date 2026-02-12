@@ -6,7 +6,9 @@ DOMAIN-SUFFIX,store.hikarifield.co.jp
 DOMAIN-SUFFIX,penguin-stats.io
 DOMAIN-SUFFIX,penguin-stats.cn
 DOMAIN-SUFFIX,penguin-stats.s3.amazonaws.com
-# 可能是App Store用来就近分配CDN下载服务器（因疑似使openclash内核日志报错故暂停）
+# lineageOS
+DOMAIN-SUFFIX,lineageos.org
+# 可能是App Store用来就近分配CDN下载服务器（目前，因疑似使openclash内核日志报错，故暂停）
 # DOMAIN-SUFFIX,api.ip.sb
 # DOMAIN-SUFFIX,api.ipify.org
 # 轻之国度
