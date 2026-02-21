@@ -8,11 +8,12 @@ DOMAIN-SUFFIX,penguin-stats.cn
 DOMAIN-SUFFIX,penguin-stats.s3.amazonaws.com
 # lineageOS
 DOMAIN-SUFFIX,lineageos.org
+DOMAIN-SUFFIX,mirror.freedif.org
 # 可能是App Store用来就近分配CDN下载服务器（目前，因疑似使openclash内核日志报错，故暂停）
 # DOMAIN-SUFFIX,api.ip.sb
 # DOMAIN-SUFFIX,api.ipify.org
 # 轻之国度
 DOMAIN-SUFFIX,lightnovel.fun
-# TNT
+# TNT (Mac破解)
 DOMAIN-SUFFIX,appstorrent.ru
 DOMAIN-SUFFIX,appstorrent.org
