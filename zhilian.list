@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,mirror.freedif.org
 # DOMAIN-SUFFIX,api.ipify.org
 # 轻之国度
 DOMAIN-SUFFIX,lightnovel.fun
+# 人机验证
+DOMAIN-SUFFIX,forums.e-hentai.org
 # TNT (Mac破解)
 DOMAIN-SUFFIX,appstorrent.ru
 DOMAIN-SUFFIX,appstorrent.org
