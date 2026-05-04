@@ -19,3 +19,5 @@ DOMAIN-SUFFIX,forums.e-hentai.org
 # TNT (Mac破解)
 DOMAIN-SUFFIX,appstorrent.ru
 DOMAIN-SUFFIX,appstorrent.org
+# cloudflare云盘
+DOMAIN-SUFFIX,cloudflarestorage.com
