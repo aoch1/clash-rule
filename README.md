@@ -7,7 +7,7 @@ blackmatrix7库：https://github.com/blackmatrix7/ios_rule_script/tree/master/ru
 ## 一些订阅转换服务前缀
 api.dler.io  
 api.wcc.best
-# 一些AX6的源码
+## 一些AX6的源码
 lede源码 https://github.com/coolsnowwolf/lede  
 lede最后保留ax6的源码 https://github.com/aoch1/lede  
 说是带满血NSS驱动的源码 https://github.com/VIKINGYFY/immortalwrt/tree/main  
